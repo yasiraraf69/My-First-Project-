@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-box {
+    
+    padding: 50px 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.profile-pic img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid green;
+}
+
+.name {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bio {
+    color: #222;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.roles {
+    color: #222;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.socials {
+    width: 430px;
+    height: 50px;
+    margin-top: 90px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.socials a {
+    color: #e6f1ff;
+    background-color: #1a2436;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0,03 ease;
+}
+
+.socials a:hover {
+    transform: scale(1.1);
+    transform: translateY(-4px);
+}
+
+.facebook:hover { background-color: #1877f2; }
+.instagram:hover { background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af) ;}
+.whatsapp:hover { background-color: #25d366; }
+.email:hover { background-color: #ea4335; }
